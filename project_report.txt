@@ -1,0 +1,146 @@
+
+                  PROJECT REPORT
+        PASSWORD GUARD: PASSWORD STRENGTH ANALYZER
+
+
+1. ABSTRACT
+
+Password Guard is a Python-based application designed to
+educate users about password strength and online safety.
+It evaluates sample passwords using their length,
+character variety, common-password checks, and predictable
+patterns. The application assigns an estimated strength
+score and provides suggestions for improvement.
+
+The project uses basic Python programming concepts such as
+variables, strings, lists, conditional statements, loops,
+and functions.
+
+
+2. INTRODUCTION
+
+Passwords are an important part of digital security.
+Weak or predictable passwords may be easier to guess.
+Many users do not understand what makes a password stronger.
+
+Password Guard addresses this problem by providing a simple
+interactive program that evaluates sample passwords and
+offers basic password-safety guidance.
+
+
+3. PROBLEM STATEMENT
+
+Users may choose short, common, or predictable passwords
+without understanding the risks. A simple educational tool
+can help users identify some weaknesses and learn better
+password practices.
+
+
+4. OBJECTIVES
+
+1. To analyze the basic characteristics of a password.
+2. To identify selected common passwords and sequences.
+3. To provide suggestions for improving password choices.
+4. To compare the estimated strength of two sample passwords.
+5. To spread awareness about password safety.
+
+
+5. TOOLS AND TECHNOLOGIES
+
+Programming language: Python
+Code editor: Visual Studio Code
+Libraries: Python built-in features only
+Interface: Text-based terminal menu
+
+No HTML or CSS is used in this version.
+
+
+6. METHODOLOGY
+
+The program displays a menu and asks the user to choose
+an operation. When a sample password is entered, the
+program checks its length, lowercase letters, uppercase
+letters, digits, and special characters.
+
+It also checks whether the password matches selected
+common passwords or contains certain predictable sequences.
+A simple scoring system estimates its strength level.
+
+The program then displays the score and suggestions.
+Users can also compare two sample passwords or view
+password-safety tips.
+
+
+7. MAIN FEATURES
+
+1. Password strength analysis.
+2. Detection of selected common passwords.
+3. Detection of selected predictable sequences.
+4. Suggestions for password improvement.
+5. Comparison of two sample passwords.
+6. Educational password-safety tips.
+7. Menu-based navigation and exit option.
+
+
+8. PYTHON CONCEPTS USED
+
+Variables: Store the password, score, and user choice.
+
+Strings: Allow the program to examine password characters.
+
+Lists: Store common passwords, sequences, and safety tips.
+
+Conditional statements: Select actions based on conditions.
+
+Loops: Repeat the menu and examine characters or lists.
+
+Functions: Divide the program into reusable tasks.
+
+String methods: Check character types and normalize text.
+
+
+9. TESTING AND RESULTS
+
+The program was tested using sample passwords and menu
+options. The main menu, password analysis, and safety tips
+were checked successfully.
+
+Additional tests include invalid menu input and program
+exit. Their results should be recorded after testing.
+
+Refer to the separate test_results.txt file for the
+individual test cases and their outcomes.
+
+
+10. LIMITATIONS
+
+The strength score is a basic educational estimate, not a
+professional security assessment. The program checks only
+a limited list of common passwords and predictable patterns.
+It does not check every known password or calculate actual
+password-cracking time.
+
+The current version is a terminal application rather than
+a browser-based website. Passwords are not saved by the
+program, but terminal input may remain visible on screen.
+
+
+11. FUTURE SCOPE
+
+Possible improvements include a larger common-password
+database, more advanced pattern detection, a graphical
+interface if permitted, and additional password-safety
+educational features.
+
+
+12. CONCLUSION
+
+Password Guard demonstrates how Python can be used to
+build a simple interactive password-analysis application.
+It applies fundamental programming concepts to a practical
+problem and helps users understand the importance of using
+long, unique, and less predictable passwords.
+
+The project also demonstrates the use of functions,
+conditional logic, loops, strings, lists, and basic
+algorithmic scoring.

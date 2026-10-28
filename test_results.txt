@@ -1,0 +1,42 @@
+
+PASSWORD GUARD — TEST RESULTS
+
+Project: Password Strength Analyzer
+Language: Python
+
+Test 1: Program startup
+Input: Run password_guard.py
+Expected result: Main menu appears.
+Actual result: Main menu appeared successfully.
+Status: PASS
+
+Test 2: Common password
+Input: 123456
+Expected result: Program identifies a weak/common password and gives suggestions.
+Actual result: Program displayed a strength score and improvement suggestions.
+Status: PASS
+
+Test 3: Longer sample password
+Input: River!Cloud92
+Expected result: Program evaluates the password and displays its strength.
+Actual result: Program displayed a score, strength level, and/or suggestions.
+Status: PASS
+
+Test 4: Password safety tips
+Input: Menu option 3
+Expected result: Safety tips are displayed.
+Actual result: Safety tips appeared successfully.
+Status: PASS
+
+Test 5: Invalid menu option
+Input: 9
+Expected result: Program displays an invalid-choice message and returns to the menu.
+Actual result: Invalid choice. Please enter a number from 1 to 5.
+Status: PASS
+
+Test 6: Exit
+Input: Menu option 5
+Expected result: Program exits with a closing message.
+Actual result: Thank you for using Password Guard displayed and program executed. 
+Status: PASS
+
